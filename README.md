@@ -158,3 +158,13 @@ steps:
 5. Add your scheme to `SCHEMES` in `.travis.yml` for continuous integration testing.
 
 6. Send us a pull request and that's it, you're in the Pantheon!
+
+===========================================================================
+
+misakaikato 中文安装tips
+1、submodles 没法自动安装时，可以手动git clone下来
+2、在准备阶段的某些文件无法下载，是因为文件保存在谷歌的云服务器上，这个时候手动下载就好
+```
+将”gs://”替换成”https://storage.googleapis.com/“，即通过HTTPS协议进行下载
+wget --no-check-certificate https://storage.googleapis.com/chromium-binutils/5e71702981e5f3b45632f2f209eb3a85d65ca764 -O /home/misaka/lb/pantheon/third_party/proto-quic/src/third_party/binutils/Linux_x64/binutils.tar.bz2
+```
