@@ -38,3 +38,23 @@
 	path = third_party/fillp-sheep
 	url = https://github.com/fillthepipe/fillp-sheep.git
 	ignore = dirty
+[submodule "third_party/fillp"]
+	path = third_party/fillp
+	url = https://github.com/fillthepipe/fill-the-pipe.git
+	ignore = dirty
+[submodule "third_party/genericCC"]
+	path = third_party/genericCC
+	url = https://github.com/venkatarun95/genericCC
+	ignore = dirty
+[submodule "third_party/pcc-experimental"]
+	path = third_party/pcc-experimental
+	url = https://github.com/PCCproject/PCC-Uspace.git
+	ignore = dirty
+[submodule "third_party/indigo"]
+	path = third_party/indigo
+	url = https://github.com/StanfordSNR/indigo.git
+	ignore = dirty
+[submodule "third_party/scream-reproduce"]
+	path = third_party/scream-reproduce
+	url = https://github.com/StanfordSNR/scream.git
+	ignore = dirty
